@@ -193,3 +193,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
+# FM
+BOARD_HAVE_QCOM_FM := true

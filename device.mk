@@ -459,3 +459,8 @@ $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 # Lily Experience
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
