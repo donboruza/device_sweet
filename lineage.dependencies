@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "kernel_xiaomi_sm6150",
+        "target_path": "kernel/xiaomi/sweet",
+        "remote": "donboruza",
+        "branch": "t13"
+    },
+    {
+        "repository": "sweet_vendor",
+        "target_path": "vendor/xiaomi/sweet",
+        "remote": "donboruza",
+        "branch": "thirteen"
+    }
+]
