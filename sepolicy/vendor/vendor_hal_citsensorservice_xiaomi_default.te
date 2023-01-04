@@ -18,9 +18,7 @@ allow vendor_hal_citsensorservice_xiaomi_default self:qipcrtr_socket create_sock
 allowxperm vendor_hal_citsensorservice_xiaomi_default self:qipcrtr_socket ioctl msm_sock_ipc_ioctls;
 
 get_prop(vendor_hal_citsensorservice_xiaomi_default, vendor_sensors_prop)
-userdebug_or_eng(`
-    get_prop(vendor_hal_citsensorservice_xiaomi_default, vendor_sensors_dbg_prop)
-')
+userdebug_or_eng(`get_prop(vendor_hal_citsensorservice_xiaomi_default, sensors_dbg_prop)')
 
 allow vendor_hal_citsensorservice_xiaomi_default vendor_sysfs_graphics:file r_file_perms;
 
