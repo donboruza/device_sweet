@@ -105,11 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    DeviceSettings \
-    init.devicesettings.rc
-
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
